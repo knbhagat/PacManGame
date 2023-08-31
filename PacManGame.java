@@ -222,7 +222,7 @@ public class PacManGame {
    */
   public void ghostMove(Ghost g) {
     g.move();
-    //System.out.println("Ghost is in room " + g.currentRoom.getID());
+    System.out.println("Ghost is in room " + g.currentRoom.getID());
     this.playerTurn = true;
   }
   
